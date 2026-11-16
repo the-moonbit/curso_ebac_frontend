@@ -1,0 +1,23 @@
+$cor-principal: #2c3e50;
+$cor-destaque: #e74c3c;
+$fonte-padrao: Arial, sans-serif;
+
+body {
+    font-family: $fonte-padrao;
+    background-color: #f4f4f4;
+    color: $cor-principal;
+    margin: 0;
+    padding: 40px;
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+
+        h1 {
+            color: $cor-destaque;
+        }
+    }
+}
